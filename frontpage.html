@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+   <link rel="stylesheet" href="frontpage.css">
+   <style>
+
+body{
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+
+}
+.box{
+    width: 380px;
+    padding: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #0000;
+    text-align: center;
+
+}
+
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+.box input[type="text"],.box input[type="password"]
+
+{
+border: 0;
+background: none;
+display: black;
+margin: 20px;
+text-align: center;
+border: 3px solid #2367fd;
+padding: 14px 7px;
+width: 220px;
+outline: none;
+color: white;
+border-radius: 22px;
+transition: 0.25px;
+
+}
+
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+    width: 270px;
+    border-color: #ffc400ec;
+
+}
+
+.box input[type="submit"]{
+    border: 0;
+background: none;
+display: black;
+margin: 20px;
+text-align: center;
+border: 3px solid #ffc400ec ;
+padding: 14px 7px;
+
+outline: none;
+color: white;
+border-radius: 22px;
+transition: 0.25px;
+cursor: pointer;
+}
+
+
+   </style>
+
+
+</head>
+<body>
+    <form class=""box action="frontpage.html" method="POST">
+        <h1> login form22 </h1>
+        <input type="text" name="name" placeholder="USERNAME" id="username">  
+        <input type="password" name="password" placeholder= "Password" id="password">  
+        <input type="button" name="name" value="Login">  
+
+
+
+
+    </form>
+    
+</body>
+</html>

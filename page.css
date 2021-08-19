@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-color: #4a47a3;
+    --text-color: #2a2b2c;
+    --secondary-color: #c9c8e3;
+}
+
+body{
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: "Inter", "Poppins", sans-serif;
+    color: var(--text-color);
+    background-color:lightblue;
+}

@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+.div2 {
+  width: 30%;
+  height: 100px;  
+  padding: 5rem;
+  border: 1.5px solid black;
+  align-items: center;
+  box-shadow: 5px ,10px;
+}
+.font1{
+    font-size: medium;
+    font-family: fantasy;
+}
+
+/* for button */
+.button {
+  padding: 25px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  /* box-shadow: 0 9px #999; */
+}
+
+
+/* .button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+} */
+</style>
+</head>
+
+
+<body>
+    <h1>The datalist element</h1><hr>
+<div class="div2">
+    <div class="font1">
+<form action="/action_page.php" method="get">
+  <label for="browser">Choose list:</label>
+  <input list="browsers" name="browser" id="browser">
+  
+
+  <datalist id="browsers">
+    <option value="Edge">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">                                        
+  </datalist><br><br>                                          
+  <label for="Enter Address">Enter Address:</label>
+  <input type="text" name="adress"> <br><br>        
+  <label for="dilervery date">Dilivery date:</label>
+  <input type="date" id="date" name="Dilivery date"><br><br>
+  <input class="button" type="submit">
+
+  
+</form>
+</div>
+</div>
+<!-- <p><strong>Note:</strong> Please enter correct information.</p> -->
+</body>
+</html>
