@@ -51,3 +51,15 @@ def search(a, key):
 a = [3,52,1,43,56]
 key = int(input("find no"))
 search(a, key)
+
+
+print("----")
+def fabo(z):
+    if z == 0:
+        return 1
+    else:
+        return z * fabo(z-1)
+n = 5
+
+
+print(f"the value of {n}! is {fabo(n)}")
