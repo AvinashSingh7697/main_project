@@ -62,4 +62,4 @@ def fabo(z):
 n = 5
 
 
-print(f"the value of {n}! is {fabo(n)}")
+print(fabo(5))
